@@ -24,7 +24,7 @@ In this project we have three distance standard:
 
 2. **City Block distance**: $$d(p, q)=\sum_{i=0}^{n}{|q_i-p_i|}$$
 
-3. **Sorensen distance**: $$d(p, q)=\sum_{i=0}^{n}{|q_i-p_i|} / \sum_{i=0}^{n}{(q_i + p_i)}$$
+3. **Sorensen distance**: $$d(p, q)=\frac{\sum_{i=0}^{n}{|q_i-p_i|}}{\sum_{i=0}^{n}{(q_i + p_i)}}$$
 
 Find the minimum distance between centers and other points and make clusters. then update centers by averaging between each cluster samples and reach a new centers. this process repeat `n_iteration` times.
 

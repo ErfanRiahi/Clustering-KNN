@@ -20,7 +20,7 @@ In `create_data` function, randomly create points between 0 to 1000 and accordin
 ### Clustering part
 In this project we have three distance standard:
 
-1. **Euclidean distance**: $d(p, q) = \sqrt{\sum_{i=0}^n (q_i - p_i)^2}$
+1. **Euclidean distance**: $$d(p,q)=\sqrt{\sum_{i=0}^{n}(q_i-p_i)^2}$$
 
 2. **City Block distance**: $d(p, q)=\sum_{i=0}^{n}{|q_i-p_i|}$
 
